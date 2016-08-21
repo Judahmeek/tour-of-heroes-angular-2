@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Workspace</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <base href="/">
+   
+    <title>Angular 2 Tour of Heroes Demo</title>
+     
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+     
+    <%# Angular 2 libraries %>
+    <%= javascript_include_tag 'https://code.angularjs.org/2.0.0-beta.8/Rx.umd.js' %>
+    <%= javascript_include_tag 'https://code.angularjs.org/2.0.0-beta.8/angular2-polyfills.js' %>
+    <%= javascript_include_tag 'https://code.angularjs.org/2.0.0-beta.8/angular2-all.umd.dev.js' %>
+         
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     
+    <%= csrf_meta_tags %>
+  </head>
+ 
+  <body>
+    <my-app></my-app>
+  </body>
 </html>
