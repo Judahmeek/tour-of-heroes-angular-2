@@ -1,0 +1,39 @@
+nice:
+  id: 11
+  name: "Mr. Nice"
+
+narco:
+  id: 12
+  name: "Narco"
+
+bombasta:
+  id: 13
+  name: "Bombasto"
+
+celeritas:  
+  id: 14
+  name: "Celeritas"
+
+magneta:
+  id: 15
+  name: "Magneta"
+
+rubber:
+  id: 16
+  name: "RubberMan"
+
+dynama:
+  id: 17
+  name: "Dynama"
+
+iq:
+  id: 18
+  name: "Dr IQ"
+
+magma:
+  id: 19
+  name: "Magma"
+
+tornado:
+  id: 20
+  name: "Tornado"
